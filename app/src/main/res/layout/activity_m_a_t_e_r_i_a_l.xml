@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".MATERIAL">
+    <Button
+        android:id="@+id/btn_material"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_gravity="top"
+
+        android:background="@drawable/ic_baseline_arrow_back_24"
+        android:textSize="25sp"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="@font/aclonica"
+
+        android:textColor="#fff" />
+<LinearLayout
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="335dp"
+        android:layout_height="74dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="125dp"
+        android:background="@drawable/input_back"
+        android:text="BRICKWORK"
+        android:textColor="#FFF"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toBottomOf="@+id/button7"
+         />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="280dp"
+        android:layout_height="74dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/input_back"
+        android:text="plastering"
+        android:textColor="#FFF"
+        android:textSize="36sp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/button8"
+
+       />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="225dp"
+        android:layout_height="74dp"
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/input_back"
+        android:text="concrete"
+        android:textColor="#FFF"
+        android:textSize="36sp"
+        />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="170dp"
+        android:layout_height="74dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/input_back"
+        android:text="tiles"
+        android:textColor="#FFF"
+        android:textSize="36sp" />
+</LinearLayout>
+</RelativeLayout>
